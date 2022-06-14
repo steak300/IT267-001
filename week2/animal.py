@@ -33,7 +33,7 @@ if __name__ == "__main__":
     drac.breed = "Catfish"
     drac.print_detail()
     
-    Animal.print_detail(ula)#ula.print_detail()
+    '''Animal.print_detail(ula)#ula.print_detail()
     
     #เรียกดู class variableทั้งหมด
     print(f'{Animal.__dict__}')
@@ -44,4 +44,4 @@ if __name__ == "__main__":
     peter.new_animal("Peter","Parrot","Green Yellow Red",2)
     #add new  
     peter.legs = 2
-    print(f'{peter.__dict__}')
+    print(f'{peter.__dict__}')'''
