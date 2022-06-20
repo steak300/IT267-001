@@ -1,5 +1,5 @@
-class student:
-    def __init__(self,id:str,name:str,major:str) -> None:
+class Student:
+    def __init__(self,id:str,name:str,major:str = "IT") -> None:
         #instance variables
         self.id = id
         self.name = name
@@ -15,8 +15,11 @@ class student:
         print(f'Object was destoryed')
 
 if __name__ == "__main__":        
-    Jessica = student(111,"Jessica","IT")
-    John = student(112,"John","MKT")
-
+    Jessica = Student(111,"Jessica","IT")
+    John = Student(112,"John","MKT")
+    amy = Student("113","Amy")
+    
     Jessica.display_detail()
     John.display_detail()
+    amy.display_detail()
+    
